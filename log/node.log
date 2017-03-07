@@ -1,0 +1,73 @@
+2017-03-04T14:08:46+0300 [Controller  75816]      __  __  __  __  __  __      __     __
+2017-03-04T14:08:46+0300 [Controller  75816]     /  `|__)/  \/__`/__`|__) /\ |__)  |/  \
+2017-03-04T14:08:46+0300 [Controller  75816]     \__,|  \\__/.__/.__/|__)/~~\|  \. |\__/
+2017-03-04T14:08:46+0300 [Controller  75816]                                         
+2017-03-04T14:08:46+0300 [Controller  75816] Version:     Crossbar.io COMMUNITY 17.2.1
+2017-03-04T14:08:46+0300 [Controller  75816] Public Key:  d09c8e324781f86da10123a7bae36e7fac1cfd5841564be600c5a83ca02e8228
+2017-03-04T14:08:46+0300 [Controller  75816] 
+2017-03-04T14:08:46+0300 [Controller  75816] Node created with personality "community" [crossbar.controller.node.Node]
+2017-03-04T14:08:46+0300 [Controller  75816] Running from node directory "/Users/ozgursavasan/python-venv/wamp_server/multiplayer/.crossbar"
+2017-03-04T14:08:46+0300 [Controller  75816] Node configuration loaded from "/Users/ozgursavasan/python-venv/wamp_server/multiplayer/.crossbar/config.json"
+2017-03-04T14:08:46+0300 [Controller  75816] Controller process starting (CPython-KQueueReactor) ..
+2017-03-04T14:08:46+0300 [Controller  75816] No extra node router roles
+2017-03-04T14:08:46+0300 [Controller  75816] Router service session attached [crossbar.router.service.RouterServiceSession]
+2017-03-04T14:08:46+0300 [Controller  75816] Joined realm 'crossbar' on node management router
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.get_info"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.shutdown"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.get_workers"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.get_worker"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.get_worker_log"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.start_router"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.stop_router"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.start_container"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.stop_container"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.start_guest"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.stop_guest"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.start_websocket_testee"
+2017-03-04T14:08:46+0300 [Controller  75816] Registering management API procedure "crossbar.stop_websocket_testee"
+2017-03-04T14:08:46+0300 [Controller  75816] Node controller attached [crossbar.controller.process.NodeControllerSession]
+2017-03-04T14:08:46+0300 [Controller  75816] Using default node shutdown triggers [u'shutdown_on_worker_exit']
+2017-03-04T14:08:46+0300 [Controller  75816] Configuring node from local configuration ...
+2017-03-04T14:08:46+0300 [Controller  75816] Starting 2 workers ...
+2017-03-04T14:08:46+0300 [Controller  75816] Starting Router with ID 'worker-001'...
+2017-03-04T14:08:47+0300 [Router      75819] Worker process starting (CPython-KQueueReactor) ..
+2017-03-04T14:08:47+0300 [Router      75819] RouterWorkerSession: SessionDetails(realm=<crossbar>, session=2313116638076054, authid=<crossbar.process.75819>, authrole=<crossbar.worker.worker-001>, authmethod=trusted, authprovider=programcode, authextra=None, resumed=None, resumable=None, resume_token=None)
+2017-03-04T14:08:47+0300 [Controller  75816] Router with ID 'worker-001' and PID 75819 started
+2017-03-04T14:08:47+0300 [Router      75819] Realm 'realm1' started
+2017-03-04T14:08:47+0300 [Controller  75816] Router 'worker-001': realm 'realm-001' (named 'realm1') started
+2017-03-04T14:08:47+0300 [Router      75819] role role-001 on realm realm-001 started
+2017-03-04T14:08:47+0300 [Controller  75816] Router 'worker-001': role 'role-001' (named 'anonymous') started on realm 'realm-001'
+2017-03-04T14:08:47+0300 [Router      75819] Site starting on 8080
+2017-03-04T14:08:47+0300 [Controller  75816] Router 'worker-001': transport 'transport-001' started
+2017-03-04T14:08:47+0300 [Controller  75816] Starting Container with ID 'worker-002'...
+2017-03-04T14:08:48+0300 [Container   75820] Worker process starting (CPython-KQueueReactor) ..
+2017-03-04T14:08:48+0300 [Container   75820] ContainerWorkerSession: SessionDetails(realm=<crossbar>, session=5618062903515949, authid=<crossbar.process.75820>, authrole=<crossbar.worker.worker-002>, authmethod=trusted, authprovider=programcode, authextra=None, resumed=None, resumable=None, resume_token=None)
+2017-03-04T14:08:48+0300 [Controller  75816] Container with ID 'worker-002' and PID 75820 started
+2017-03-04T14:08:48+0300 [Controller  75816] Container 'worker-002': component 'component-001' started
+2017-03-04T14:08:48+0300 [Controller  75816] Node configuration applied successfully!
+2017-03-04T14:08:48+0300 [Container   75820] procedure join_match() registered
+2017-03-04T14:08:48+0300 [Container   75820] procedure make_turn() registered
+2017-03-04T14:08:52+0300 [Controller  75816] Received SIGINT, shutting down.
+2017-03-04T14:08:52+0300 [Controller  75816] sending TERM to subprocess 75819
+2017-03-04T14:08:52+0300 [Controller  75816] waiting for 75819 to exit...
+2017-03-04T14:08:52+0300 [Controller  75816] sending TERM to subprocess 75820
+2017-03-04T14:08:52+0300 [Controller  75816] waiting for 75820 to exit...
+2017-03-04T14:08:52+0300 [Router      75819] Native worker received SIGTERM - shutting down ..
+2017-03-04T14:08:52+0300 [Router      75819] Shutdown of worker requested!
+2017-03-04T14:08:52+0300 [Container   75820] Native worker received SIGTERM - shutting down ..
+2017-03-04T14:08:52+0300 [Container   75820] Shutdown of worker requested!
+2017-03-04T14:08:52+0300 [Router      75819] Connection to node controller closed cleanly
+2017-03-04T14:08:52+0300 [Router      75819] (TCP Port 8080 Closed)
+2017-03-04T14:08:52+0300 [Container   75820] Connection to node controller closed cleanly
+2017-03-04T14:08:52+0300 [Container   75820] Lost connection to component 'component-001' with code '1006'.
+2017-03-04T14:08:52+0300 [Container   75820] connection was closed uncleanly (peer dropped the TCP connection without previous WebSocket closing handshake)
+2017-03-04T14:08:52+0300 [Container   75820] Container is hosting no more components: shutting down.
+2017-03-04T14:08:52+0300 [Controller  75816] Native worker connection closed cleanly.
+2017-03-04T14:08:52+0300 [Controller  75816] Node worker worker-002 ended successfully
+2017-03-04T14:08:52+0300 [Controller  75816] Node worker ended, and trigger 'shutdown_on_worker_exit' active
+2017-03-04T14:08:52+0300 [Controller  75816] Node shutting down ..
+2017-03-04T14:08:52+0300 [Controller  75816] Shutting down node...
+2017-03-04T14:08:52+0300 [Controller  75816] Native worker connection closed cleanly.
+2017-03-04T14:08:52+0300 [Controller  75816] Node worker worker-001 ended successfully
+2017-03-04T14:08:52+0300 [Controller  75816] Node worker ended, and trigger 'shutdown_on_worker_exit' active
+2017-03-04T14:08:52+0300 [Controller  75816] Node is already shutting down.

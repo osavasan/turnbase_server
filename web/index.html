@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         td {
+         width: 25px;
+         height: 25px;
+         }
+      </style>
+   </head>
+
+   <body>
+      <h1>TicTacToe</h1>
+      <script>AUTOBAHN_DEBUG = false;</script>
+      <script src="js/autobahn.min.jgz"></script>
+      <script src="js/jquery-3.1.1.min.js"></script>
+      <script src="js/tictactoe.js"></script>
+
+      <table border="1">
+         <tr><td>
+            <p id="player">Not joined yet...</p>
+
+         </td>
+         <td>
+            <p id="player_id"></p>
+         </td>
+         </tr>
+      </table>
+
+      <table id="board" border="2px">
+         <tr><td data-index="0"></td><td data-index="1"></td><td data-index="2"></td></tr>
+         <tr><td data-index="3"></td><td data-index="4"></td><td data-index="5"></td></tr>
+         <tr><td data-index="6"></td><td data-index="7"></td><td data-index="8"></td></tr>
+      </table>
+
+      <div id="log"></div>
+   </body>
+</html>
